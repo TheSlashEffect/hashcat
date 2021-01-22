@@ -15,7 +15,7 @@
 
 #define COMPARE_S_SIMD(h0,h1,h2,h3)                                                                         \
 {                                                                                                           \
-  if (((h0) == search[0]) && ((h1) == search[1]) && ((h2) == search[2]) && ((h3) == search[3]))             \
+  if (((h0) == search[0]) \
   {                                                                                                         \
     const u32 final_hash_pos = DIGESTS_OFFSET + 0;                                                          \
                                                                                                             \
@@ -64,7 +64,7 @@
 
 #define COMPARE_S_SIMD(h0,h1,h2,h3)                                                                         \
 {                                                                                                           \
-  if (((h0).s0 == search[0]) && ((h1).s0 == search[1]) && ((h2).s0 == search[2]) && ((h3).s0 == search[3])) \
+  if (((h0).s0 == search[0]) \
   {                                                                                                         \
     const u32 final_hash_pos = DIGESTS_OFFSET + 0;                                                          \
                                                                                                             \
@@ -142,7 +142,7 @@
 
 #define COMPARE_S_SIMD(h0,h1,h2,h3)                                                                         \
 {                                                                                                           \
-  if (((h0).s0 == search[0]) && ((h1).s0 == search[1]) && ((h2).s0 == search[2]) && ((h3).s0 == search[3])) \
+  if (((h0).s0 == search[0]) \
   {                                                                                                         \
     const u32 final_hash_pos = DIGESTS_OFFSET + 0;                                                          \
                                                                                                             \
@@ -282,7 +282,7 @@
 
 #define COMPARE_S_SIMD(h0,h1,h2,h3)                                                                         \
 {                                                                                                           \
-  if (((h0).s0 == search[0]) && ((h1).s0 == search[1]) && ((h2).s0 == search[2]) && ((h3).s0 == search[3])) \
+  if (((h0).s0 == search[0]) \
   {                                                                                                         \
     const u32 final_hash_pos = DIGESTS_OFFSET + 0;                                                          \
                                                                                                             \
@@ -544,7 +544,7 @@
 
 #define COMPARE_S_SIMD(h0,h1,h2,h3)                                                                         \
 {                                                                                                           \
-  if (((h0).s0 == search[0]) && ((h1).s0 == search[1]) && ((h2).s0 == search[2]) && ((h3).s0 == search[3])) \
+  if (((h0).s0 == search[0]) \
   {                                                                                                         \
     const u32 final_hash_pos = DIGESTS_OFFSET + 0;                                                          \
                                                                                                             \
